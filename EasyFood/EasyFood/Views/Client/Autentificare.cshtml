@@ -1,0 +1,52 @@
+﻿@model EasyFood.Models.Client
+
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="/Styles/EasyFood.css" rel="stylesheet" />
+
+
+<div class="containerProfil">
+    
+        <div style="grid-column:1; width:100%">
+            <h2>@Html.DisplayFor(model => model.Prenume)  @Html.DisplayFor(model => model.Nume)</h2>
+            <br />
+            <div class="containerImaginePrezentare" style="background-image:url('@Html.DisplayFor(model => model.LinkPoza)');">
+            </div>
+        </div>
+        <div class="continutCentrat" style="grid-column:2; width:100%">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.DataNasterii)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DataNasterii)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Adresa)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Adresa)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+            </dl>
+            <br />
+            <br />
+            <p>
+                @Html.ActionLink("Editează Informațiile", "Edit", new { id = Model.ID })
+            </p>
+            <p>
+                @Html.ActionLink("Deconectare", "Index", "Home", new { val = 1 }, null)
+            </p>
+        </div>
+</div>

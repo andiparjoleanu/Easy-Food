@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="028b762f-062d-4dbc-974c-c8eec9c1fcff" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.wsdl" MetadataType="Wsdl" ID="d33f8e1d-ac3d-4688-83c6-a7f9d12f21bb" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="60faf680-36e8-426d-90be-26fe898d92ca" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" />
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.xsd" MetadataType="Schema" ID="4476d29c-56c8-4dbf-8462-3e75195657ab" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="da6354d9-6c95-46e3-8653-1978e5ec1a59" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" />
+    <MetadataFile FileName="ValoriNutritionale.xsd" MetadataType="Schema" ID="0d7121d0-a85f-44df-8c4f-387bece5165e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ValoriNutritionale/CalculatorService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

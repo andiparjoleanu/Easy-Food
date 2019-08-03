@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\obj\Debug\ValidareCard.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\bin\Debug\ValidareCard.dll.config
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\bin\Debug\ValidareCard.dll
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\bin\Debug\ValidareCard.pdb
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\obj\Debug\ValidareCard.dll
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\ValidareCard\obj\Debug\ValidareCard.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\bin\Debug\ValidareCard.dll.config
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\bin\Debug\ValidareCard.dll
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\bin\Debug\ValidareCard.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\obj\Debug\ValidareCard.csprojResolveAssemblyReference.cache
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\obj\Debug\ValidareCard.dll
+H:\Visual Studio 2013\Projects\EasyFood\ValidareCard\obj\Debug\ValidareCard.pdb

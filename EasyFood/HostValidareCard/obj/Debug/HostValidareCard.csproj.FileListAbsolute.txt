@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\bin\Debug\HostValidareCard.exe.config
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\bin\Debug\HostValidareCard.exe
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\bin\Debug\HostValidareCard.pdb
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\bin\Debug\ValidareCard.dll
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\bin\Debug\ValidareCard.pdb
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\obj\Debug\HostValidareCard.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\obj\Debug\HostValidareCard.exe
+C:\Users\User\Desktop\Costin\Informatica\MDS\Proiect\EasyFood\HostValidareCard\obj\Debug\HostValidareCard.pdb

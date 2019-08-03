@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Autentificare";
+}
+
+<div class="continutCentrat">
+    <h3>Autentificare</h3>
+    <br/>
+    <form action="Client/Autentificare" method="post">
+        <div>
+            <label>Email</label>
+            <input name="username" type="text" class="form-control"/>
+        </div>
+        <br />
+        <div>
+            <label>Parola</label>
+            <input name="parola" type="password" class="form-control" />
+        </div>
+        <br/>
+        <input type="submit" class="btn btn-light" value="Conectare"/>
+    </form>
+    <br />
+    <div>
+        <p>Nu ai cont? @Html.ActionLink("Înregistrează-te!", "Create", "Client")</p>
+    </div>
+</div>

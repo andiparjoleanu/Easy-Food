@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Microsoft.ServiceModel.Samples" elementFormDefault="qualified" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="valideaza">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="numarCard" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cvv" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dataExpirare" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="valideazaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="valideazaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,55 @@
+﻿.containerItem
+{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr 2fr 1fr;
+    grid-column-gap: 5vw;
+}
+    
+.containerIcon
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.containerDetalii
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.continutCentrat
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.denumireReteta
+{
+    display: flex;
+    align-items:center;
+}
+
+.containerImaginePrezentare
+{
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:50vw;
+}
+
+.containerVideoPrezentare
+{
+    display: flex;
+    justify-content: center;
+}
+
+.videoPrezentare
+{
+    width: 100%;
+    height: 50vw;
+}

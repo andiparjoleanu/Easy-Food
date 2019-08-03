@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Microsoft.ServiceModel.Samples" elementFormDefault="qualified" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/ValoriNutritionale" />
+  <xs:element name="AdunaIngrediente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ValoriNutritionale" minOccurs="0" name="arr" nillable="true" type="q1:ArrayOfIngredientReteta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AdunaIngredienteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ValoriNutritionale" minOccurs="0" name="AdunaIngredienteResult" nillable="true" type="q2:IngredientReteta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImparteIngredient">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ValoriNutritionale" minOccurs="0" name="ingr" nillable="true" type="q3:IngredientReteta" />
+        <xs:element minOccurs="0" name="nrGrame" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImparteIngredientResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ValoriNutritionale" minOccurs="0" name="ImparteIngredientResult" nillable="true" type="q4:IngredientReteta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

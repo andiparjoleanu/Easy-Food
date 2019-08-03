@@ -1,0 +1,16 @@
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.exe.config
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.exe
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\bin\Debug\ValoriNutritionale.dll
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\bin\Debug\ValoriNutritionale.pdb
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.exe
+C:\Users\Maria\Documents\Visual Studio 2013\Projects\ValoriNutritionale\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.exe.config
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.exe
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.exe
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\bin\Debug\ValoriNutritionaleHost.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\bin\Debug\ValoriNutritionale.dll
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\bin\Debug\ValoriNutritionale.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionaleHost\obj\Debug\ValoriNutritionaleHost.csprojResolveAssemblyReference.cache

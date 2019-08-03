@@ -1,0 +1,69 @@
+﻿@model IEnumerable<EasyFood.Models.Bucatar>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<link href="\Styles\EasyFood.css" rel="stylesheet" />
+
+<div>
+    <div class="container-fluid " style="width:100%;  margin:0px; padding:0px">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" style="width:100% !important">
+                <div class="item active containerImaginePrezentare" style="background-image:url('/Fisiere/chef.jpg')">
+                    <div class="carousel-caption d-none d-md-block mb-5 detaliiOferte">
+                        <h3 class="lead">Descoperă ce ți-a pregătit chef Julia.</h3>
+                        @Html.ActionLink("Vezi oferta", "Index", "Reteta", new { }, new { @class = "btn btn-success" })
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="item containerImaginePrezentare" style="background-image:url('/Fisiere/somon-la-gratar.JPG')">
+                    <div class="carousel-caption d-none d-md-block mb-5 detaliiOferte">
+                        <h3 class="lead">Somon la grătar cu legume gratinate</h3>
+                        @Html.ActionLink("Detalii", "Details/2", "Reteta", new { }, new { @class = "btn btn-warning" })
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <br/>
+    <br />
+    <h3>Bucătarii noștri</h3>
+    <br />
+    <div class="panouBucatari">
+        @{
+            for(int i = 0; i < 2; i ++)
+            {
+                <div>
+                    <p>@Model.ElementAt(i).Angajat.Nume @Model.ElementAt(i).Angajat.Prenume</p>
+                    <div class="containerIcon elementPanouBucatari" style="background-image:url(@Model.ElementAt(i).LinkPoza)">
+                    </div>
+                    <br />
+                    <p>@Model.ElementAt(i).Pregatire</p>
+                    <p>Specializare: @Model.ElementAt(i).Specializare</p>
+                </div>
+            }
+        }
+    </div>
+</div>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EasyFoodContext-Web.config Connection String" description="EasyFoodContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=EasyFood7;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Visual\ Studio\ 2013\\Projects\\EasyFood\\EasyFood\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EasyFoodContext']/@connectionString" />
+  </parameter>
+  <parameter name="EasyFoodContext_DatabasePublish-Web.config Connection String" description="EasyFoodContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="EasyFoodContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Visual\ Studio\ 2013\\Projects\\EasyFood\\EasyFood\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EasyFoodContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

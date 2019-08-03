@@ -1,0 +1,111 @@
+﻿@model EasyFood.ViewModels.ValoareNutritionalaReteta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="/Styles/EasyFood.css" rel="stylesheet" />
+
+
+<h2>
+    @Html.DisplayFor(model => model.Reteta.Denumire)
+</h2>
+
+<div class="containerImaginePrezentare" style="background-image:url('@Html.DisplayFor(model => model.Reteta.LinkImaginePrezentare)');">
+</div>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.Descriere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.Descriere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.Stoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.Stoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.Pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.Pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.NivelDificultate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.NivelDificultate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.TimpPreparare)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.TimpPreparare)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reteta.Categorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reteta.Categorie)
+        </dd>
+
+    </dl>
+    
+    <div>
+        <p>Ingrediente:</p> 
+        <dl class="dl-horizontal">
+            @{
+                List<EasyFood.ServiceReference2.IngredientReteta> ir = new List<EasyFood.ServiceReference2.IngredientReteta>();
+                foreach (var item in Model.Reteta.Ingrediente)
+                {
+                    <dt>
+                        @Html.DisplayFor(modelitem => item.Produs.Denumire)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(modelitem => item.Cantitate)
+                    </dd>
+
+                    EasyFood.ServiceReference2.IngredientReteta ob = new EasyFood.ServiceReference2.IngredientReteta();
+                    ob.Carbohidrati = (double)item.Produs.Carbohidrati;
+                    ob.Grasimi = (double)item.Produs.Grasimi; 
+                    ob.Proteine = (double)item.Produs.Proteine;
+                    ob.Calorii = (double)item.Produs.Calorii;
+                    ir.Add(Model.CalculatorClient.ImparteIngredient(ob, item.Cantitate));
+               }
+               
+               EasyFood.ServiceReference2.IngredientReteta ret = Model.CalculatorClient.AdunaIngrediente(ir.ToArray());
+            }
+        </dl>
+        
+        <p>Valoare nutrițională:</p>
+        <p>Proteine: <span>@ret.Proteine</span></p>
+        <p>Grasimi: <span>@ret.Grasimi</span></p>
+        <p>Calorii: <span>@ret.Calorii</span></p>
+        <p>Carbohidrati: <span>@ret.Carbohidrati</span></p>
+    </div>
+
+    <div class="containerVideoPrezentare">
+        <iframe class="videoPrezentare" src="@Html.DisplayFor(model => model.Reteta.LinkVideo)"></iframe>
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Alte rețete", "Index")
+</p>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Easy Food</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+    .elementlista a:hover
+    {
+        color: black !important;
+    }
+
+    .logo:hover
+    {
+        color: black !important;
+    }
+
+    .navbar-toggle
+    {
+        background-color: dimgray;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:white; color:darkgray">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Easy Food", "Index", "Home", new { area = "" }, new { @class = "navbar-brand logo" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="elementlista">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="elementlista">@Html.ActionLink("Retete", "Index", "Reteta")</li>
+                    <li class="elementlista">@Html.ActionLink("Contul Meu", "Details/1", "Client")</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Easy Food</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

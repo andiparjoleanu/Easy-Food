@@ -1,0 +1,12 @@
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\bin\Debug\ValoriNutritionale.dll.config
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\bin\Debug\ValoriNutritionale.dll
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\bin\Debug\ValoriNutritionale.pdb
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\obj\Debug\ValoriNutritionale.csprojResolveAssemblyReference.cache
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\obj\Debug\ValoriNutritionale.dll
+c:\users\maria\documents\visual studio 2013\Projects\ValoriNutritionale\ValoriNutritionale\obj\Debug\ValoriNutritionale.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\bin\Debug\ValoriNutritionale.dll.config
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\bin\Debug\ValoriNutritionale.dll
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\bin\Debug\ValoriNutritionale.pdb
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\obj\Debug\ValoriNutritionale.csprojResolveAssemblyReference.cache
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\obj\Debug\ValoriNutritionale.dll
+H:\Visual Studio 2013\Projects\EasyFood\ValoriNutritionale\obj\Debug\ValoriNutritionale.pdb

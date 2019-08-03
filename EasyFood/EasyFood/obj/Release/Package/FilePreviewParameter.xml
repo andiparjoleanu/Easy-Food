@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="EasyFood123" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^H:\\Visual\ Studio\ 2013\\Projects\\EasyFood\\EasyFood\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^H:\\Visual\ Studio\ 2013\\Projects\\EasyFood\\EasyFood\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EasyFoodContext-Web.config Connection String" description="EasyFoodContext Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\v11.0;Initial Catalog=EasyFood7;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Visual\ Studio\ 2013\\Projects\\EasyFood\\EasyFood\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EasyFoodContext']/@connectionString" />
+  </parameter>
+</parameters>

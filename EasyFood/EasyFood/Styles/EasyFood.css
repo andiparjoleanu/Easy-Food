@@ -1,0 +1,103 @@
+﻿.containerItem
+{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr 2fr 1fr;
+    grid-column-gap: 5vw;
+}
+    
+.containerIcon
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.containerDetalii
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.continutCentrat
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.denumireReteta
+{
+    display: flex;
+    align-items:center;
+}
+
+.containerImaginePrezentare
+{
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:30vw;
+}
+
+.containerVideoPrezentare 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.containerProfil
+{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+}
+
+.panouBucatari
+{
+    display:grid; 
+    grid-template-columns:1fr 1fr;
+    grid-template-row:1fr;  
+    grid-column-gap:10vw;
+    grid-row-gap:10vw;
+}
+
+.elementPanouBucatari
+{
+    height:30vw;
+}
+
+.easyfood-navbar
+{
+    background-color:white; 
+    color:darkgray; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.videoPrezentare
+{
+    width: 100%;
+    height: 50vw;
+}
+
+.detaliiOferte
+{
+    background-color:rgba(128, 128, 128, 0.8); 
+    border-radius: 15px;
+}
+
+@media (max-width: 767px) 
+{
+   .panouBucatari
+   {
+        grid-template-columns:1fr;
+        grid-template-row:1fr 1fr;
+   }
+
+   .elementPanouBucatari
+   {
+       height:70vw;
+   }
+}

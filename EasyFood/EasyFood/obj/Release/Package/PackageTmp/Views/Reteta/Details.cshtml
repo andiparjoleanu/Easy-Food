@@ -1,0 +1,77 @@
+﻿@model EasyFood.Models.Reteta
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="http://easyfoodro.azurewebsites.net/Styles/EasyFood.css" rel="stylesheet" />
+
+
+<h2>
+    @Html.DisplayFor(model => model.Denumire)
+</h2>
+
+<div class="containerImaginePrezentare" style="background-image:url('@Html.DisplayFor(model => model.LinkImaginePrezentare)');">
+</div>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriere)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descriere)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NivelDificultate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NivelDificultate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TimpPreparare)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimpPreparare)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorie)
+        </dd>
+
+    </dl>
+
+    <div class="containerVideoPrezentare">
+        <iframe class="videoPrezentare" src="@Html.DisplayFor(model => model.LinkVideo)"></iframe>
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Alte rețete", "Index")
+</p>
